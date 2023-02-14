@@ -235,7 +235,7 @@ def calculator():
                         f"Final Velocity: {round(float(final_velocity), 10)} m/s. \n"
                         f"Acceleration: {round(float(acceleration), 10)} m/s^2. \n"
                         f"Elapsed Time: {round(float(time), 10)} s. \n"
-                        f"Change in Position: {round(float(change_in_position), 10)} m. \n"
+                        f"Change in Position: {round(float(change_in_position), 10)} m."
                         )
                 else:
                     total_time = total_time + float(time)
@@ -249,7 +249,7 @@ def calculator():
                         f"Final Velocity: {round(float(final_velocity), 10)} m/s. \n"
                         f"Acceleration: {round(float(acceleration), 10)} m/s^2. \n"
                         f"Elapsed Time: {round(float(time), 10)} s. \n"
-                        f"Change in Position: {round(float(change_in_position), 10)} m. \n"
+                        f"Change in Position: {round(float(change_in_position), 10)} m."
                         )
 
                 # Print the total results.
@@ -267,7 +267,7 @@ def calculator():
                     else:
                         continue
                 else:
-                    input("\nPress enter to continue calculations. \n")
+                    input("Press enter to continue calculations. \n")
                     continue
             
             # Save the total results to a file.
